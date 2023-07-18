@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all .2s linear;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 1100px;
+    margin: 50px auto;
+}
+
+/* ====================== header ====================== */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(217, 223, 229);
+}
+
+header a {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    color: black;
+    padding: 10px 0;
+}
+
+header a:hover {
+    background: rgb(188, 194, 201);
+}
+
+/* ====================== intro ====================== */
+.controls {
+    background: slategray;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+    padding: 10px 0;
+}
+
+.slide-control {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.slide-control:hover {
+    background: white;
+}
+
+.slide-control.active {
+    background: white;
+}
+
+.intro .container h1 {
+    font-size: 35px;
+}
+
+.intro .container p {
+    margin: 25px 0 30px 0;
+}
+
+.intro .container .controls i {
+    font-size: 23px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+/* ====================== offer ====================== */
+.offer .container .heading {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 200px;
+    text-align: center;
+    font-size: 1rem;
+    border-bottom: 5px solid slategray;
+}
+
+.offer .container .box-container {
+    display: flex;
+    margin-top: 30px;
+}
+
+.offer .container .box-container .box {
+    padding: 30px;
+}
+
+.offer .container .box-container .box h3 {
+    padding-bottom: 10px;
+}
+
+.box1 {
+    background: rgb(207, 213, 220);
+}
+
+.box2 {
+    background: rgb(140, 148, 157);
+}
+
+.box3 {
+    background: rgb(107, 115, 125);
+    color: white;
+}
+
+.box4 {
+    color: white;
+    background: rgb(67, 74, 81);
+}
+
+/* =================== plans =================== */
+
+.plans .heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.plans .box-container {
+    display: flex;
+    justify-content: center;
+}
+
+.plans .box-container .box {
+    width: 100%;
+    margin: 0 10px;
+    border: 1px solid slategray;
+}
+
+.plans .box-container .box h6 {
+    background: black;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: normal;
+}
+
+.plans .box-container .box h6.center-h6 {
+    background: slategray;
+}
+
+.plans .box-container .box p {
+    border-bottom: 1px solid rgb(170, 184, 198);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.plans .box-container .box .price span {
+    display: block;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+
+.plans .box-container .box .btn {
+    background-color: rgb(218, 217, 217);
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.plans .box-container .box .btn button {
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.plans .box-container .box .btn button:hover {
+    background-color: lightslategray;
+    color: black;
+}
+
+/* ======================= team =================== */
+.team .container .heading h2 {
+    text-align: center;
+    border-bottom: 7px solid slategray;
+    margin: 0 auto;
+    font-size: 1rem;
+    width: 200px;
+    padding-bottom: 20px;
+}
+
+.team .container .box-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 2.2rem;
+}
+
+.team .box-container .box {
+    border: 1px solid gray;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.team .container .box-container .box .image img {
+    width: 100%;
+}
+
+.team .container .box-container .box h4 {
+    padding: 10px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.team .container .box-container .box .subtitle {
+    padding: 12px 10px;
+    color: gray;
+    font-weight: normal;
+}
+
+.team .container .box-container .box .text {
+    padding: 12px 10px;
+    font-weight: normal;
+}
+
+.team .container .box-container .box .touch {
+    margin-left: 12px;
+    padding: 8px 130px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.team .container .box-container .box .touch:hover {
+    background-color: darkgrey;
+}
+
+/* ===== contacts ========= */
+
+.contacts .container .heading {
+    text-align: center;
+    border-bottom: 5px solid slategray;
+    margin: 0 auto;
+    font-size: 1rem;
+    width: 180px;
+    padding-bottom: 20px;
+
+}
+
+.contacts .container .box-container .box .search {
+    width: 100%;
+    margin-left: 50px;
+    height: 40px;
+    margin: 1px 0;
+
+
+
+}
+
+.contacts .container .box-container .box h5 {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.contacts .container .box-container .send-button {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 8px 0;
+}
+
+.contacts .container .box-container .send-button:hover {
+    background-color: rgb(196, 196, 193);
+}
+
+/* ============ footer ============ */
+footer {
+    margin: 0;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: lightslategray;
+}
+
+
+
+
+
+
+
+
+
+
